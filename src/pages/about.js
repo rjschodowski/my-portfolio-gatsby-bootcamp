@@ -10,7 +10,7 @@ const About = () => {
                 React, Gatsby, Tailwind CSS, and other modern technologies. Currently seeking full-time employment at a 
                 people-focused company where I can contribute my skills and continue to grow.
 </p>
-<p><Link to="/contact">WAnt to work with me? Reach out</Link>.</p>
+<p><Link to="/contact">Want to work with me? Reach out</Link>.</p>
         </Layout>
     )
 }
