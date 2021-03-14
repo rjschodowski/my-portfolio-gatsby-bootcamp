@@ -27,7 +27,7 @@ const BlogPage = () => {
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
                         <li>
-                            <h2>{edge.node.frontmatter.title</h2>
+                            <h2>{edge.node.frontmatter.title}</h2>
                             <p></p>
                         </li>
                     )
