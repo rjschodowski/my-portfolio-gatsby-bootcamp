@@ -28,7 +28,7 @@ const BlogPage = () => {
                     return (
                         <li>
                             <h2>{edge.node.frontmatter.title}</h2>
-                            <p></p>
+                            <p>{edge.node.frontmatter.date}</p>
                         </li>
                     )
                 })}
