@@ -27,10 +27,13 @@ const Header = () => {
                         <Link className={navItem} activeClassName={activeNavItem} to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className={navItem} activeClassName={activeNavItem} to="/blog">Blog</Link>
+                        <Link className={navItem} activeClassName={activeNavItem} to="/about">About</Link>
                     </li>
                     <li>
-                        <Link className={navItem} activeClassName={activeNavItem} to="/about">About</Link>
+                        <Link className={navItem} activeClassName={activeNavItem} to="/projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link className={navItem} activeClassName={activeNavItem} to="/blog">Blog</Link>
                     </li>
                     <li>
                         <Link className={navItem} activeClassName={activeNavItem} to="/contact">Contact</Link>
