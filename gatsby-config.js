@@ -4,6 +4,7 @@ module.exports = {
     title: 'R.J. Schodowski',
     author: 'R.J. Schodowski'
   },
+
   plugins: [
     {
       resolve: 'gatsby-source-contentful',
@@ -39,3 +40,7 @@ module.exports = {
     
   ],
 }
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
